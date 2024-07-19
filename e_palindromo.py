@@ -22,6 +22,9 @@ class testVerificaPalindromo(unittest.TestCase):
     def test_verifica_palindromo_quatro_entradas(self):
         self.assertEqual(verifica_palindromo("ovo"), "É palindromo")
         
+    def test_verifica_palindromo_cinco(self):
+        self.assertEqual(verifica_palindromo("mato"), "Não é palindromo")
+        
 
 if __name__ == '__main__':
     unittest.main()
