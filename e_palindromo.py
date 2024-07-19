@@ -11,7 +11,7 @@ import unittest
 class testVerificaPalindromo(unittest.TestCase):
 
     def test_verifica_palindromo_unico(self):
-        self.assertEqual(verifica_palindromo("apple"), "Não é palindromo")
+        self.assertEqual(verifica_palindromo("apply"), "Não é palindromo")
         
     def test_verifica_palindromo_duas_entradas(self):
         self.assertEqual(verifica_palindromo("aba"), "É palindromo")
