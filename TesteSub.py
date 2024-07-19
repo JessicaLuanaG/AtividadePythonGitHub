@@ -1,7 +1,6 @@
 def retorna_subtração(lista):
     if len(lista) == 0:
         return "0"
-    return sum(lista)
 
 import unittest
 
